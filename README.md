@@ -1,24 +1,26 @@
 Bootstrap-Pagination
 ===================
 
-Bind events on Bootstrap pagination and you can custom getItemsAjax
--------------------------------------------------------------------
+#####Bind events on Bootstrap pagination and you can custom getItemsAjax
 
-###How to use it.
-$('.pagination').BTPagination(totalRecords,opts);
+######How to use it.
+
+>$('.pagination').BTPagination(totalRecords,opts);
 
 
-totalRecords  --- The number of records
+######Parameters:
 
-opts --- A object which has properties as follows:
+* totalRecords  --- The number of records
 
-items_per_page : 10 (default)
-num_display_pageno : 10 (default)
-prev_text : 'Prev' (default)
-next_text : 'Next' (default)
-getItemsAjax : function() {return false;}
+* opts --- A object which has properties as follows:
 
-you can provide your own value of above properties.
+> 1. items_per_page : 10 (default)
+2. num_display_pageno : 10 (default)
+3. prev_text : 'Prev' (default)
+4. next_text : 'Next' (default)
+5. getItemsAjax : function() {return false;}
+
+<b>you can provide your own value of above properties.</b>
 
 
 
