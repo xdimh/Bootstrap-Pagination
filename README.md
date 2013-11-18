@@ -2,8 +2,9 @@ Bootstrap-Pagination
 ===================
 
 Bind events on Bootstrap pagination and you can custom getItemsAjax
+-------------------------------------------------------------------
 
-How to use it.
+###How to use it.
 $('.pagination').BTPagination(totalRecords,opts);
 
 
