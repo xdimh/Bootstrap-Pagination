@@ -7,7 +7,6 @@ Bootstrap-Pagination
 
     $('.pagination').BTPagination(totalRecords,opts);
 
-
 ######Parameters:
 
 * totalRecords  --- The number of records
