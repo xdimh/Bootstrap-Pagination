@@ -5,7 +5,7 @@ Bootstrap-Pagination
 
 ######How to use it.
 
->$('.pagination').BTPagination(totalRecords,opts);
+    $('.pagination').BTPagination(totalRecords,opts);
 
 
 ######Parameters:
